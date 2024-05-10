@@ -1,0 +1,40 @@
+.main-projects {
+    /* width: 90vw; */
+    height: auto;
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 40px;
+    background-color: rgb(16, 16, 16);
+    /* border: 1px solid; */
+}
+
+.smallProjects {   
+    width: 650px;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 230px; */
+    gap: 10px;
+    border: 2px solid rgb(44, 44, 44);
+    border-radius: 10px;
+    cursor: pointer;
+    /* border: 1px solid; */
+}
+
+.smallProjects img {
+    width: 45%;
+    height: 180px;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.outline-container{
+    width: 100px;
+    height: 100px;
+    color: black;
+}

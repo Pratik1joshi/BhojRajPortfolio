@@ -1,0 +1,39 @@
+.Home-main-container{
+    height: 88vh;
+    background-color: black;
+    display: flex;
+
+}
+.left-container-home{
+    background-color: rgb(0, 0, 0);
+    height: 88vh;
+    width: 40%;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    color: white;
+}
+.right-container-home div{
+    font-size: xx-large;
+}
+.hi-intro{
+    font-size: 60px;
+    color: crimson;
+}
+.name-intro{
+    color: crimson;
+    font-size: 45px;
+}
+.right-container-home{
+    width: 60%;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    color: white;
+    padding-left: 90px;
+}
+/* .right-container-home span{
+    margin-left: 20px;
+} */

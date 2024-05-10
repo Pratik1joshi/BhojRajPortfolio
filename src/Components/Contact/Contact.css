@@ -1,0 +1,115 @@
+.main-Container_contact {
+    height: 89vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 20px 100px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main-Container_contact h2 {
+    font-size: 42px;
+}
+
+.messages-contact-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-message-contact input {
+    width: 80%;
+    background-color: rgb(50, 42, 42);
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 5px;
+}
+
+.form-message-contact textarea {
+    background-color: rgb(50, 42, 42);
+    color: #fff;
+    width: 80%;
+    height: 150px;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    resize: none;
+
+}
+
+.form-message-contact button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.form-message-contact button:hover {
+    background-color: #c42323;
+    box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.form-message-contact button:active {
+    transform: translateY(-1px);
+}
+
+.email-logos-contact-main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: x-large;
+}
+
+.gamil-contact {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logos-contact {
+    display: flex;
+    gap: 20px;
+}
+
+.fa-paper-plane,
+.fa-square-phone {
+    color: crimson;
+}
+
+.logos-contact a i {
+    color: #fff;
+    /* transition: transform 0.3s ease-in-out; */
+}
+
+.logos-contact a i:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.fa-linkedin:hover {
+    color: rgb(84, 84, 242);
+}
+
+.fa-instagram:hover {
+    color: crimson;
+}
+
+.fa-facebook:hover {
+    color: rgb(84, 84, 242);
+}
